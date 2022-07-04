@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+  }
+
+header {
+    background-color:rgb(44, 152, 152);
+    padding: 2rem 0;
+    text-align:center;
+    box-shadow: 0px 5px 0px 0px rgb(42, 40, 40);
+    font-size: 16px;
+  }
+
+  header > a {
+    color: rgb(255, 255, 255);
+    text-decoration:double;
+    padding: 0 1rem;
+  }
+
+  header > a:hover {
+    text-decoration: underline;
+    color:rgb(97, 97, 93);
+  }
+  
+  .active {
+    cursor:pointer;
+  }
